@@ -137,7 +137,7 @@ def scan_website(url):
         return {"error": str(error)}
 
 
-target = input("website.com: ")
+target = input("Enter website URL: ")
 
 results = scan_website(target)
 
